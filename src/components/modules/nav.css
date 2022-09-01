@@ -1,0 +1,37 @@
+.nav{
+    position: sticky;
+    /* width: 100%; */
+    top: 0;
+    height: 30px;
+    padding: 10px;
+
+    transition-timing-function: ease-in;
+    transition: all 1s;
+
+}
+.nav-black{
+    background-color: black;
+}
+.nav_contents{
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-logo{
+    position: fixed;
+    background-color: transparent;
+    top: 5px;
+    left: 0;
+    object-fit: contain;
+    width: 80px;
+    padding-left: 20px;
+    cursor: pointer;
+    object-fit: contain; /* keeps the aspect ratio*/
+    
+}
+.nav-avatar{
+    position: fixed;
+    right:20px ;
+    width: 30px;
+    cursor: pointer;
+}
